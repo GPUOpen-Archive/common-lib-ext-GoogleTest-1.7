@@ -8,8 +8,8 @@
       <AdditionalIncludeDirectories>$(GoogleTestDir)\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
-      <AdditionalLibraryDirectories>$(GoogleTestDir)\lib\VS2015\$(GDTCRT)\$(GDTPlatform)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>gtest$(GDTDebugSuffixNoDash).lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(GoogleTestDir)\lib\VS2015\$(AMDTCRT)\$(AMDTPlatform)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>gtest$(AMDTDebugSuffixNoDash).lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
