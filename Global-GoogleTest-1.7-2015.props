@@ -6,6 +6,7 @@
   <ItemDefinitionGroup>
     <ClCompile>
       <AdditionalIncludeDirectories>$(GoogleTestDir)\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <AdditionalLibraryDirectories>$(GoogleTestDir)\lib\VS2015\$(AMDTCRT)\$(AMDTPlatform)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
